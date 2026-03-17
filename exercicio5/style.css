@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    justify-self: content;
+}
+
+.card {
+    padding: 20px;
+    background-color: gray;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.ativo {
+    background-color: green;
+    color: white;
+    transform: scale(1.1);
+}
+
+
