@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+article {
+    padding: 1rem 7rem;
+    border-radius: 10px;
+    justify-items: center;
+    justify-self: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+
+.container{
+    text-align: center;
+    justify-self: center;
+    justify-items: center;
+    align-content: center;
+    align-self: center;
+}
+
+.buttons #btn1, #btn2{
+    margin: 10px;
+    border-radius: 5px;
+    background-color: lightblue;
+    padding: 1rem 2rem;
+    border-style: none;
+}

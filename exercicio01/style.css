@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+#a1 {
+    display: grid;
+    padding: 2rem;
+    border-radius: 5px;
+    justify-content: center;
+    justify-items: center;
+    background-color: purple;
+    align-content: center;
+}
+
+.container {
+    color: lightpink;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    height: 100vh;
+}
+
+#button1 {
+    padding: 1rem;
+    margin: 2rem;
+    background-color: pink;
+    border-radius: 5px;
+    border-style: none;
+}

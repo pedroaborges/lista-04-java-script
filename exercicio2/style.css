@@ -22,5 +22,8 @@
 .ativo {
     background-color: red;
     border: 3px solid black;
-    transform: scale(1.1);
+}
+
+#btn1 {
+    margin: 1rem;
 }
